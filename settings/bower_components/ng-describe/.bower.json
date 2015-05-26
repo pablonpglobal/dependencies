@@ -1,0 +1,37 @@
+{
+  "name": "ng-describe",
+  "main": "ng-describe.js",
+  "version": "0.10.2",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs",
+    "Gruntfile.js",
+    "package.json",
+    "index.html"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "testing",
+    "unit",
+    "bdd",
+    "describe"
+  ],
+  "homepage": "https://github.com/kensho/ng-describe",
+  "_release": "0.10.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.10.2",
+    "commit": "a6c54983cbb5f36e589ff007b15409691bb5fd25"
+  },
+  "_source": "git://github.com/kensho/ng-describe.git",
+  "_target": "~0.10.2",
+  "_originalSource": "ng-describe",
+  "_direct": true
+}

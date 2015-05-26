@@ -1,0 +1,17 @@
+{
+  "name": "BrowserDetection",
+  "version": "1.0.1",
+  "main": "browser-detection.js",
+  "description": "Javascript library for detecting the browser (navigator name) and version",
+  "license": "GPL v2",
+  "homepage": "https://github.com/spape/browser-detection",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "5267bec10a0838506e45d42554db4633f0f13265"
+  },
+  "_source": "git://github.com/spape/browser-detection.git",
+  "_target": "~1.0.1",
+  "_originalSource": "browser-detection"
+}

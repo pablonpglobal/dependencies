@@ -1,0 +1,37 @@
+{
+  "name": "lazy-ass",
+  "main": "index.js",
+  "version": "0.5.3",
+  "homepage": "https://github.com/bahmutov/lazy-ass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js",
+    "package.json",
+    "index.html"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "keywords": [
+    "lazy",
+    "assertion",
+    "assertions",
+    "debugging",
+    "defensive",
+    "node",
+    "browser"
+  ],
+  "_release": "0.5.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.3",
+    "commit": "4c62aa7852d8ca800cd9c9f9f098620fcdf1f13c"
+  },
+  "_source": "git://github.com/bahmutov/lazy-ass.git",
+  "_target": "~0.5.3",
+  "_originalSource": "lazy-ass",
+  "_direct": true
+}

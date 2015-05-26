@@ -1,0 +1,39 @@
+{
+  "name": "check-more-types",
+  "main": "check-more-types.js",
+  "version": "1.5.0",
+  "homepage": "https://github.com/kensho/check-more-types",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs",
+    "Gruntfile.js",
+    "package.json",
+    "index.html"
+  ],
+  "keywords": [
+    "types",
+    "type-checking",
+    "duck-typing",
+    "checks",
+    "check-types"
+  ],
+  "description": "Additional type checks for https://github.com/philbooth/check-types.js",
+  "authors": [
+    "Gleb Bahmutov <gleb.bahmutov@gmail.com>"
+  ],
+  "_release": "1.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.5.0",
+    "commit": "ca09f79a13b52d28f1fa9d511fe044e5ce1ba35d"
+  },
+  "_source": "git://github.com/kensho/check-more-types.git",
+  "_target": "~1.5.0",
+  "_originalSource": "check-more-types",
+  "_direct": true
+}
