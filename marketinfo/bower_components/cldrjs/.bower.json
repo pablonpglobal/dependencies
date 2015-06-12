@@ -1,0 +1,28 @@
+{
+  "name": "cldrjs",
+  "dependencies": {
+    "cldr-data": ">=25"
+  },
+  "main": [
+    "dist/cldr.js",
+    "dist/cldr/event.js"
+  ],
+  "devDependencies": {
+    "chai": "1.7.x",
+    "eventEmitter": "4.2.7",
+    "mocha": "1.12.x",
+    "requirejs": "2.1.x",
+    "requirejs-plugins": "1.0.2",
+    "requirejs-text": "2.0.10"
+  },
+  "homepage": "https://github.com/nachoalthabe/cldrjs",
+  "_release": "c4307e8402",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c4307e8402a3b73b39f35c2446ea970ce6fc77ff"
+  },
+  "_source": "https://github.com/nachoalthabe/cldrjs.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/nachoalthabe/cldrjs.git"
+}
