@@ -1,0 +1,24 @@
+{
+  "name": "ci-utils",
+  "version": "0.2.0",
+  "description": "Common utils used between different cityindex applications.",
+  "main": "src/utils.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0"
+  }
+}

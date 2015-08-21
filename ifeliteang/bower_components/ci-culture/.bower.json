@@ -1,0 +1,39 @@
+{
+  "name": "ci-culture",
+  "version": "0.2.5",
+  "description": "Common custom culture service used among different CI apps",
+  "main": [
+    "src/culture.service.js",
+    "src/culture.directive.js"
+  ],
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-cookies": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "lodash": "~3.10.0",
+    "ci-http": "git@cityindex.unfuddle.com:cityindex/cihttp.git#~0.2.0",
+    "ci-translate": "git@cityindex.unfuddle.com:cityindex/ifelitecommongit.git#~0.2.0",
+    "ci-brands": "git@cityindex.unfuddle.com:cityindex/cibrands.git#~0.1.1"
+  },
+  "_release": "0.2.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.5",
+    "commit": "ce275747e18e13e8083c6d7a93f7a5696786e03f"
+  },
+  "_source": "git@cityindex.unfuddle.com:cityindex/ciculture.git",
+  "_target": "~0.2.0",
+  "_originalSource": "git@cityindex.unfuddle.com:cityindex/ciculture.git"
+}

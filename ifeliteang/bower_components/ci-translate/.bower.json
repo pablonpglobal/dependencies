@@ -1,0 +1,39 @@
+{
+  "name": "ci-translate",
+  "version": "0.2.5",
+  "description": "Common custom translate service used among different CI apps",
+  "main": "src/translate.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "lodash": "~3.10.0",
+    "angular-translate": "~2.7.2",
+    "angular-translate-loader-url": "~2.7.2",
+    "angular-translate-handler-log": "2.7.2",
+    "angular-dynamic-locale": "~0.1.27",
+    "angular-i18n": "~1.4.2",
+    "ci-http": "git@cityindex.unfuddle.com:cityindex/cihttp.git#~0.2.0",
+    "ci-call2api": "git@cityindex.unfuddle.com:cityindex/cicall2api.git#~0.2.0"
+  },
+  "_release": "0.2.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.5",
+    "commit": "f2f9748e9bc71eeb7ff4fe652542932c07741c0a"
+  },
+  "_source": "git@cityindex.unfuddle.com:cityindex/ifelitecommongit.git",
+  "_target": "~0.2.1",
+  "_originalSource": "git@cityindex.unfuddle.com:cityindex/ifelitecommongit.git"
+}

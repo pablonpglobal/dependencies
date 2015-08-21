@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="DemoApp" lang="en" class="hidden">
+<head>
+  <meta charset="UTF-8">
+  <title ci-ui-page-title>Default Title</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="light.css"/>
+  <link rel="stylesheet" href="dark.css"/>
+  <link rel="icon" type="image/x-icon" ci-ui-favicon/>
+</head>
+<body ng-controller="DemoCtrl">
+
+<!-- brandSrv::ready is optional -->
+<div ci-ui-theme="brandSrv::ready">
+  <p></p>
+</div>
+
+<div ci-ui-dropdown dd-model="ddModel"></div>
+<br/>
+<br/>
+
+<a href="#" ng-click="testModal()">Modal</a>
+<br/>
+<br/>
+
+<span ci-ui-logo data-url="http://placehold.it/350x150" data-alt="Description"></span>
+
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/lodash/lodash.js"></script>
+<script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+<script src="../src/ui.service.js"></script>
+<script src="../src/ui.directive.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

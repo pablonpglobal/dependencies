@@ -1,0 +1,24 @@
+{
+  "name": "ci-brands",
+  "version": "0.1.5",
+  "description": "Brands service which manages the logic for all the brands used.",
+  "main": "src/brands.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0",
+    "ci-params": "git@cityindex.unfuddle.com:cityindex/ciparams.git#~0.2.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ci-ui",
+  "version": "0.2.4",
+  "description": "Commons directives to handle the UI issues.",
+  "main": [
+    "src/ui.service.js",
+    "src/ui.directive.js"
+  ],
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "lodash": "~3.10.0",
+    "ci-translate": "git@cityindex.unfuddle.com:cityindex/ifelitecommongit.git#~0.2.0",
+    "bootstrap": "~3.2.0",
+    "angular-bootstrap": "~0.12.1"
+  }
+}

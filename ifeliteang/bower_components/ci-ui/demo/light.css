@@ -1,0 +1,12 @@
+body {
+  background-color: lightgray;
+  color: #111;
+}
+
+.hidden {
+  display: none;
+}
+
+p::before {
+  content: 'Light theme'
+}

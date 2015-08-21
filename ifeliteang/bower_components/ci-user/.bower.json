@@ -1,0 +1,37 @@
+{
+  "name": "ci-user",
+  "version": "0.1.7",
+  "description": "Common utils used between different cityindex applications.",
+  "main": "src/user.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0",
+    "ci-http": "git@cityindex.unfuddle.com:cityindex/cihttp.git",
+    "ci-params": "git@cityindex.unfuddle.com:cityindex/ciparams.git",
+    "ci-config": "git@cityindex.unfuddle.com:cityindex/ciconfig.git",
+    "ci-call2api": "git@cityindex.unfuddle.com:cityindex/cicall2api.git"
+  },
+  "_release": "0.1.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.7",
+    "commit": "ff8a90fbcc8ce5400650a839ee61876b4c535452"
+  },
+  "_source": "git@cityindex.unfuddle.com:cityindex/ciusers.git",
+  "_target": "~0.1.4",
+  "_originalSource": "git@cityindex.unfuddle.com:cityindex/ciusers.git"
+}

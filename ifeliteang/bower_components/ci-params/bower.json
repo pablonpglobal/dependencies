@@ -1,0 +1,25 @@
+{
+  "name": "ci-params",
+  "version": "0.2.0",
+  "description": "Params service.",
+  "main": "src/params.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Agustin Diaz <agustin.diaz@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0",
+    "ci-utils": "git@cityindex.unfuddle.com:cityindex/ciutils.git#~0.2.0"
+  }
+}

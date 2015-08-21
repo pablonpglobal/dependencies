@@ -1,0 +1,34 @@
+{
+  "name": "ci-marketInfo",
+  "version": "0.1.1",
+  "description": "Client for the Market Information API",
+  "main": "src/marketInfo.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9",
+    "angular-mocks": "~1.2.9",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0",
+    "ci-call2api": "git@cityindex.unfuddle.com:cityindex/cicall2api.git"
+  },
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.1",
+    "commit": "5c62d1aef36c7ee76f155c939b707f14e0a7e840"
+  },
+  "_source": "git@cityindex.unfuddle.com:cityindex/cimarketinfo.git",
+  "_target": "~0.1.1",
+  "_originalSource": "git@cityindex.unfuddle.com:cityindex/cimarketinfo.git"
+}
